@@ -1,0 +1,24 @@
+body{
+    background-color: #272728;
+  }
+  h1{
+  text-align:center;
+  background-color: orange;
+  color:white;
+  padding:10px;
+  border-radius: 10px;
+}
+    .container{
+    background-color: #272728;
+}
+    .container2{
+      background-color: white;
+      height:300px;
+      padding:100px;
+    }
+    .container3 {
+      background-color: #272728;
+    padding:5px;
+    margin-top: 20px;
+    margin-left: 500px;
+}

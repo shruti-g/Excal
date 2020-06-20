@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	student details
+</title>
+<link rel="icon" type="image/ico" href="register-button-300x266_large.png" />
+<link rel='stylesheet' href='student_record_style.css' type='text/css' />
+</head>
+<body >
+	
+		<h1>STUDENT RECORD</h1>
+		<div class="container">
+	<form name="form1" action="insert.php" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name" required autofocus></td>
+            </tr>
+            <tr>
+                <td>batch</td>
+                <td><input type="text" name="batch" id="batch"  required></td>
+            </tr>
+            <tr>
+                <td>Company_name</td>
+                <td><input type="text" name="company_name" id="company_name" required></td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td><input type="text" name="languages" id="languages" required></td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td> <input type="file" name="image" id="image" required></td>
+            </tr>
+            <tr>
+                    <td>Contact number</td>
+                    <td><input type="number" name="mobile_number" id="mobile_number"  required ></td>
+                </tr>
+            <tr>
+                <td> <input type="submit" name="submit" value="Submit"></td>
+            </tr>
+		</table>
+		</form>
+	</div>
+<div class="footer">
+	created by SHRUTI GARG@2019
+</div>
+</body>
+</html>
